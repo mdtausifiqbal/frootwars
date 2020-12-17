@@ -1,0 +1,16 @@
+body {
+    background: #000900;
+    /* Prevent the ugly blue highlighting from accidental selection of text */
+    user-select: none;
+}
+
+#wrapper {
+    position: absolute;
+}
+
+#gamecontainer {
+    /* Set game container width, height, and background image */
+    width: 640px;
+    height: 480px;
+    background: url("images/splashscreen.png");
+}
